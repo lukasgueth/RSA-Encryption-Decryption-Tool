@@ -25,3 +25,7 @@ The codes list is a list of number sepereated by a comma. To encrypt a codes lis
   1. Paste in the codes
   2. Past in your private key. (Only copy the two numbers seperated by a comma! Do not copy any empty spaces!)
   3. Receive the decrypted text!
+
+
+# Credits
+Credits for the extended euclidian algorithm: https://www.geeksforgeeks.org/python-program-for-basic-and-extended-euclidean-algorithms-2/
