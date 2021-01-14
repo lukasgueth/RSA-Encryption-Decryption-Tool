@@ -3,7 +3,7 @@ def decrypt(codes_list, private_key):
     print('\n\n===== decrypting... =====\n')
     i = 1
     for code in codes_list:
-        text += chr((code**private_key[0]) % private_key[1])
+        text += chr(pow(code, private_key[0], private_key[1]))
         print(f'Decrypted {(i / len(codes_list))*100} %!')
         i += 1
 

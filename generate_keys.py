@@ -9,7 +9,7 @@ from decrypt import decrypt
 def generate_keys():
     d = -1
     while d < 0:
-        rand_range = [99, 999]
+        rand_range = [9999999, 99999999]
         # 1.
         p = get_next_prime(randint(rand_range[0], rand_range[1]))
         q = get_next_prime(randint(rand_range[0], rand_range[1]))
@@ -24,5 +24,4 @@ def generate_keys():
 
         # 4.
         d = gcdExtended(e, m)[1]
-
     return {'public_key': [e, n], 'private_key': [d, n]}
