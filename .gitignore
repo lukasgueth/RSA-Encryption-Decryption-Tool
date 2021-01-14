@@ -1,0 +1,4 @@
+dist/
+build/
+__pcache__/
+index.spec
