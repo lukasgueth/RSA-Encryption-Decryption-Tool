@@ -1,4 +1,4 @@
-dist/
-build/
-__pcache__/
+/dist
+/build
+/__pcache__
 index.spec
